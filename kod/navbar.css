@@ -1,0 +1,40 @@
+
+.flexbox-container{
+   display: flex;
+   text-align: center;
+   justify-content: flex-end;
+   position: relative;
+   background-color: chartreuse;
+   height: 3.3em;
+}
+.flexbox-item {
+    padding: 10px;
+    width: 200px;
+    border: 3px solid salmon;
+}
+.flexbox-item-0{
+    background-color:blue;
+    /* min-height: 60px; */
+    position: absolute;
+    left: 0em;
+}
+ .flexbox-item-1{
+    background-color: blueviolet;
+    /* min-height: 60px; */
+    position: absolute;
+    left: 13em;
+} 
+.flexbox-item-2{
+    background-color: chartreuse;
+    /* min-height: 60px; */
+    position: absolute;
+    right: 0em;
+}
+.flexbox-item-3{
+    background-color: cornflowerblue;
+    /* min-height: 60px; */
+    position: absolute;
+    right: 13em;
+}
+
+
